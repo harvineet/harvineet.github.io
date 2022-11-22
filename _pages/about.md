@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Causal Inference. Responsible ML. Health.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Center for Data Science</p>
+    <p>New York University</p>
+    <p>New York City, NY</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in the [Center for Data Science](https://cds.nyu.edu) at New York University, advised by Prof. [Rumi Chunara](https://publichealth.nyu.edu/faculty/rumi-chunara). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research aims to understand the challenges in **responsible deployment and evaluation of machine learning systems**. With that goal, I develop methods in causal inference, algorithmic fairness, and interactive learning, motivated by applications in personalized and population health.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I was a Summer Fellow at Harvard University’s Center for Research on Computation and Society, and an intern at Amazon Science and Microsoft Research. I worked as a research engineer at [Adobe Research](https://research.adobe.com) before joining graduate school, where I built recommendation tools for data analysts. I completed my Integrated Masters from [Indian Institute of Technology Delhi](http://www.iitd.ac.in/) in Mathematics and Computing, where I was fortunate to be mentored by Prof. [Amitabha Bagchi](http://www.cse.iitd.ernet.in/~bagchi/) and Prof. [Parag Singla](http://www.cse.iitd.ac.in/~parags/).
+
+**I am on the industry and postdoc job market.** Please [reach out](mailto:harvineet1992@gmail.com) if you see a fit.

@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - harvineet
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - harvineet/py-gpfa
+  - ChunaraLab/fair_domain_adaptation
+  - AI4LIFE-GROUP/rise-against-distribution-shift
