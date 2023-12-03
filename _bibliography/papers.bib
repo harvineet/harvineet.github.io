@@ -3,21 +3,71 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{singh2023disparitymeasures,
+abbr={AIES},
+bibtex_show={true},
+author = {Singh, Harvineet and Chunara, Rumi},
+title = {Measures of Disparity and Their Efficient Estimation},
+year = {2023},
+isbn = {9798400702310},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3600211.3604697},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3600211.3604697},
+doi = {10.1145/3600211.3604697},
+abstract = {Quantifying disparities, that is differences in outcomes among population groups, is an important task in public health, economics, and increasingly in machine learning. In this work, we study the question of how to collect data to measure disparities. The field of survey statistics provides extensive guidance on sample sizes necessary to accurately estimate quantities such as averages. However, there is limited guidance for estimating disparities. We consider a broad class of disparity metrics including those used in machine learning for measuring fairness of model outputs. For each metric, we derive the number of samples to be collected per group that increases the precision of disparity estimates given a fixed data collection budget. We also provide sample size calculations for hypothesis tests that check for significant disparities. Our methods can be used to determine sample sizes for fairness evaluations. We validate the methods on two nationwide surveys, used for understanding population-level attributes like employment and health, and a prediction model. Absent a priori information on the groups, we find that equally sampling the groups typically performs well.},
+booktitle = {Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society},
+pages = {927–938},
+numpages = {12},
+keywords = {and well-being, optimal data collection, Social Sciences, health, AI, fairness metrics, disparity estimation},
+location = {<conf-loc>, <city>Montr\'{e}al</city>, <state>QC</state>, <country>Canada</country>, </conf-loc>},
+series = {AIES '23}
+}
+
+@InProceedings{singh2023minimaxfairness,
+  abbr={ICML},
+  bibtex_show={true},
+  title = 	 {When do Minimax-fair Learning and Empirical Risk Minimization Coincide?},
+  author =       {Singh, Harvineet and Kleindessner, Matth\"{a}us and Cevher, Volkan and Chunara, Rumi and Russell, Chris},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {31969--31989},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/singh23b/singh23b.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/singh23b.html},
+  abstract = 	 {Minimax-fair machine learning minimizes the error for the worst-off group. However, empirical evidence suggests that when sophisticated models are trained with standard empirical risk minimization (ERM), they often have the same performance on the worst-off group as a minimax-trained model. Our work makes this counter-intuitive observation concrete. We prove that if the hypothesis class is sufficiently expressive and the group information is recoverable from the features, ERM and minimax-fairness learning formulations indeed have the same performance on the worst-off group. We provide additional empirical evidence of how this observation holds on a wide range of datasets and hypothesis classes. Since ERM is fundamentally easier than minimax optimization, our findings have implications on the practice of fair machine learning.},
+  selected = {true}
+}
+
+@InProceedings{zhang2023attributingperformance,
+  abbr={ICML},
+  bibtex_show={true},
+  title = 	 {"Why did the Model Fail?": Attributing Model Performance Changes to Distribution Shifts},
+  author =       {Zhang, Haoran and Singh, Harvineet and Ghassemi, Marzyeh and Joshi, Shalmali},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {41550--41578},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/zhang23ai/zhang23ai.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/zhang23ai.html},
+  abstract = 	 {Machine learning models frequently experience performance drops under distribution shifts. The underlying cause of such shifts may be multiple simultaneous factors such as changes in data quality, differences in specific covariate distributions, or changes in the relationship between label and features. When a model does fail during deployment, attributing performance change to these factors is critical for the model developer to identify the root cause and take mitigating actions. In this work, we introduce the problem of attributing performance differences between environments to distribution shifts in the underlying data generating mechanisms. We formulate the problem as a cooperative game where the players are distributions. We define the value of a set of distributions to be the change in model performance when only this set of distributions has changed between environments, and derive an importance weighting method for computing the value of an arbitrary set of distributions. The contribution of each distribution to the total performance change is then quantified as its Shapley value. We demonstrate the correctness and utility of our method on synthetic, semi-synthetic, and real-world case studies, showing its effectiveness in attributing performance changes to a wide range of distribution shifts.},
+  selected = {true}
+}
+
 @misc{singh2022leverage,
   abbr={preprint},
   author={Harvineet Singh and Christopher Musco and Rumi Chunara},
   title={Active Linear Regression in the Online Setting via Leverage Score Sampling},
   pdf={https://drive.google.com/file/d/1g26JqEhS7_Mc8gTIhVhfh-qrNBtieG2z/view?usp=share_link},
   year=2022,
-}
-
-@inproceedings{zhang2022why,
-  abbr={preprint},
-  title={Why did the Model Fail?: Attributing Model Performance Changes to Distribution Shifts},
-  author={Haoran Zhang and Harvineet Singh and Marzyeh Ghassemi and Shalmali Joshi},
-  booktitle={NeurIPS 2022 Workshop on Distribution Shifts: Connecting Methods and Applications},
-  year={2022},
-  html={https://openreview.net/forum?id=2RbyKK-l9x}
 }
 
 @inproceedings{lobo2022data,
@@ -79,8 +129,7 @@
   author={Hiranandani, Gaurush and Singh, Harvineet and Gupta, Prakhar and Kveton, Branislav and Wen, Zheng and Burhanuddin, Iftikhar Ahamath},
   booktitle={UAI},
   year={2019},
-  html={https://proceedings.mlr.press/v115/hiranandani20a.html},
-  selected={true}
+  html={https://proceedings.mlr.press/v115/hiranandani20a.html}
 }
 
 @inproceedings{sinha2018time,

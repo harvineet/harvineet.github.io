@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-11-20 20:00:00-0800
 inline: true
 ---
 
-A simple inline announcement.
+Talk at the Future of AI in Medicine seminar at UCSF on fair ML in health.
