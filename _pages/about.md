@@ -9,14 +9,14 @@ profile:
   image: profile_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>University of California, San Francisco</p>
+    <p>Qualified Health, Palo Alto</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher at the University of California, San Francisco in Prof. [Jean Feng's](https://www.jeanfeng.com/) group. I work on machine learning models for healthcare applications, in particular developing methods to explain and audit model performance across varying populations. Before this, I received a PhD in Data Science from New York University, advised by Prof. [Rumi Chunara](https://publichealth.nyu.edu/faculty/rumi-chunara). 
+I am a data scientist at [Qualified Health](https://www.qualifiedhealthai.com), working on evaluation challenges in machine learning for healthcare. Before this, I was a postdoctoral researcher at the University of California, San Francisco in Prof. [Jean Feng's](https://www.jeanfeng.com/) group. I developed methods to explain and audit model performance across varying populations. I received a PhD in Data Science from New York University, advised by Prof. [Rumi Chunara](https://publichealth.nyu.edu/faculty/rumi-chunara). 
 
 My research aims to understand the challenges in **responsible deployment and evaluation of machine learning systems**. With that goal, I develop methods in causal inference, algorithmic fairness, and interactive learning, motivated by applications in personalized and population health.
 
